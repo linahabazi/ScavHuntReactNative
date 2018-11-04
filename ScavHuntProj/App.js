@@ -1,10 +1,8 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, FlatList, Alert } from 'react-native';
 import { Camera, Permissions, ImageManipulator } from 'expo';
-// import BigButton from './components/BigButton';
-import { Button, CheckBox } from 'react-native-elements';
+import { Button } from 'react-native-elements';
 import CountDown from 'react-native-countdown-component';
-
 
 const Clarifai = require('clarifai');
 const colors = ["red", "green","brown", "maroon", "yellow"];
@@ -14,7 +12,6 @@ const phrases = [{ phrase: "A type of food that has seeds in it", answer: "fruit
   { phrase: "Something that you write with", answer: "pencil" },
   { phrase: "Something that holds a liquid", answer: "container" },
   { phrase: "Something to wear on your face", answer: "glasses"}]
-
 
 const timer = require('react-native-timer');
 
