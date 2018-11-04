@@ -170,7 +170,7 @@ export default class App extends React.Component {
                 <View style={{flexDirection: "row", justifyContent: 'space-around' }}>
                   <View style={{ paddingTop: 30, paddingBottom: 10, alignItems: 'center' }}>
                     <Button
-                      title="Look for a..."
+                      title="Look for..."
                       color="white"
                       fontSize={25}
                       buttonStyle={{
